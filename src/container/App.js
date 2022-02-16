@@ -1,6 +1,6 @@
 import React from 'react';
-import './App.css';
-import picture from './img/victor.jpg'
+import '../css/App.css';
+import picture from 'img/victor.jpg'
 function App() {
   return (
     <div className="App">
