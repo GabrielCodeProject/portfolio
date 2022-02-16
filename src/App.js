@@ -8,6 +8,10 @@ function App() {
       <p>formation programmation jeux video</p>
       <p>Experience CodeBox and work with daddy as a internship</p>
       <img src={picture} alt="Big boi" />
+      <footer>
+        <p>Lien utile pour un github page</p>
+        <a href='https://github.com/gitname/react-gh-pages' >tutorial</a>
+      </footer>
     </div>
   );
 }
