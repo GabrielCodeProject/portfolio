@@ -3,7 +3,8 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <p>Game designer, im very good at making art design and game design :)</p>
+      <p>Big boi programmer, formation programmation jeux video</p>
+      <p>Experience CodeBox and work with daddy as a internship</p>
     </div>
   );
 }
