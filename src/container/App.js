@@ -6,7 +6,7 @@ function App() {
       <h1>Big boi programmeur</h1>
       <p>formation programmation jeux video</p>
       <p>Experience CodeBox and work with daddy as a internship</p>
-      <img src='img/victor.jpg' alt="Big boi" />
+      <img src='img/gab.jpg' alt="Big boi" />
       <footer>
         <p>Lien utile pour un github page</p>
         <a href='https://github.com/gitname/react-gh-pages' >tutorial</a>
