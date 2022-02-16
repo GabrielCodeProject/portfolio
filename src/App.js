@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-import profileImage from './img/agathe.jpg';
 function App() {
   return (
     <div className="App">
