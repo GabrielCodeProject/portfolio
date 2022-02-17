@@ -80,7 +80,7 @@ function App() {
 						</div>
 						<div class="col-4 col-6-medium col-12-small">
 							<article class="box style2">
-								<img src="img/gab.jpg" alt="" />
+							<a href="#" class="image featured"><img src="img/gab.jpg" alt="" /></a>
 								<h3><a href="#">Musik</a></h3>
 								<p>Ornare nulla proin odio consequat.</p>
 								<a href='https://github.com/GabrielCodeProject/Musik' >Lien github</a>
@@ -98,7 +98,7 @@ function App() {
 						</div>
 						<div class="col-4 col-6-medium col-12-small">
 							<article class="box style2">
-								<img src="./img/gab.jpg" alt="" />
+							<a href="#" class="image featured"><img src="./img/gab.jpg" alt="" /></a>
 								<h3><a href="#">GainzTime</a></h3>
 								<p>Ornare nulla proin odio consequat.</p>
 								<a href='https://github.com/GabrielCodeProject/GainzTime' >Lien github</a>
