@@ -161,7 +161,7 @@ function App() {
 							<hr />
 							<h3>Find me on ...</h3>
 							<ul class="social">
-								<li><a href="www.linkedin.com/in/gabriel-lavigueur-a13aa4150" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+								<li><a href="https://www.linkedin.com/in/gabriel-lavigueur-a13aa4150" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
 								<li><a href="https://github.com/GabrielCodeProject" class="icon brands fa-github"><span class="label">Github</span></a></li>
 							</ul>
 							<hr />
