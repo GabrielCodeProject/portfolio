@@ -89,7 +89,7 @@ function App() {
 						</div>
 						<div class="col-4 col-6-medium col-12-small">
 							<article class="box style2">
-								<a href="#" class="image featured"><img src="./images/gab.jpg" alt="" /></a>
+								<img src="./images/gab.jpg" alt="" />
 								<h3><a href="#">Memoire</a></h3>
 								<p>Ornare nulla proin odio consequat.</p>
 								<a href='https://github.com/GabrielCodeProject/Memoire' >Lien github</a>
