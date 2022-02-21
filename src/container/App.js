@@ -32,15 +32,12 @@ function App () {
             <div class='col-8 col-7-large col-12-medium'>
               <header>
                 <h1>
-                  Hi. I'm <strong>Gabriel Lavigueur</strong>.
+                  Salut! Je suis <strong>Gabriel Lavigueur</strong>.
                 </h1>
               </header>
               <p>
-                And this is my <strong>Portfolio</strong>.
+                Et voici mon <strong>Portfolio</strong>.
               </p>
-              <a href='#work' class='button large scrolly'>
-                Learn about what I do
-              </a>
             </div>
           </div>
         </div>
