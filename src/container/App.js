@@ -61,6 +61,7 @@ function App () {
                 </p>
               </section>
             </div>
+
             <div class='col-4 col-6-medium col-12-small'>
               <section class='box style1'>
                 <span class='icon solid featured fa-camera-retro' />
@@ -71,6 +72,7 @@ function App () {
                 </p>
               </section>
             </div>
+
             <div class='col-4 col-6-medium col-12-small'>
               <section class='box style1'>
                 <span class='icon featured fa-thumbs-up' />
@@ -82,6 +84,7 @@ function App () {
               </section>
             </div>
           </div>
+
           <footer>
             <a href='#portfolio' class='button large scrolly'>
               See some of my recent work
@@ -99,63 +102,55 @@ function App () {
             <div class='col-4 col-6-medium col-12-small'>
               <article class='box style2'>
                 <img src='../css/images/gab.jpg' alt='' />
-                <h3>
-                  <a href='#'>Journee Carriere</a>
-                </h3>
+                <h3>Journee Carriere</h3>
                 <p>Ornare nulla proin odio consequat.</p>
                 <a href='https://github.com/GabrielCodeProject/JourneeCarriere'>
                   Lien github
                 </a>
               </article>
             </div>
+
             <div class='col-4 col-6-medium col-12-small'>
               <article class='box style2'>
                 <a href='#' class='image featured'>
                   <img src='img/gab.jpg' alt='' />
                 </a>
-                <h3>
-                  <a href='#'>Musik</a>
-                </h3>
+                <h3>Musik</h3>
                 <p>Ornare nulla proin odio consequat.</p>
                 <a href='https://github.com/GabrielCodeProject/Musik'>
                   Lien github
                 </a>
               </article>
             </div>
+
             <div class='col-4 col-6-medium col-12-small'>
               <article class='box style2'>
                 <img src='./css/images/gab.jpg' alt='' />
-                <h3>
-                  <a href='#'>Memoire</a>
-                </h3>
+                <h3>Memoire</h3>
                 <p>Ornare nulla proin odio consequat.</p>
                 <a href='https://github.com/GabrielCodeProject/Memoire'>
                   Lien github
                 </a>
               </article>
             </div>
+
             <div class='col-4 col-6-medium col-12-small'>
               <article class='box style2'>
                 <a href='#' class='image featured'>
                   <img src='./img/gab.jpg' alt='' />
                 </a>
-                <h3>
-                  <a href='#'>GainzTime</a>
-                </h3>
+                <h3>GainzTime</h3>
                 <p>Ornare nulla proin odio consequat.</p>
                 <a href='https://github.com/GabrielCodeProject/GainzTime'>
                   Lien github
                 </a>
               </article>
             </div>
+
             <div class='col-4 col-6-medium col-12-small'>
               <article class='box style2'>
-                <a href='#' class='image featured'>
-                  <img src='images/pic05.jpg' alt='' />
-                </a>
-                <h3>
-                  <a href='#'>StarGraze</a>
-                </h3>
+                <img src='./img/gab.jpg' class='image featured' alt='' />
+                <h3>StarGraze</h3>
                 <a
                   href='https://gabrielcodeproject.itch.io/spacegaze?secret=N234BvIkw2xGpcHt897BwabrU'
                   class='button large scrolly'
@@ -167,14 +162,13 @@ function App () {
                 </a>
               </article>
             </div>
+
             <div class='col-4 col-6-medium col-12-small'>
               <article class='box style2'>
                 <a href='#' class='image featured'>
-                  <img src='images/pic05.jpg' alt='' />
+                  <img src='../css/images/gab.jpg' alt='' />
                 </a>
-                <h3>
-                  <a href='#'>Portfolio</a>
-                </h3>
+                <h3>Portfolio</h3>
                 <p>Lien utile pour un github page</p>
                 <a href='https://github.com/gitname/react-gh-pages'>tutorial</a>
               </article>
