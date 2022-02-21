@@ -2230,6 +2230,10 @@ ul.actions li:first-child {
 
 /* Articles */
 
+article {
+  margin: 0;
+}
+
 body > article {
   margin-bottom: 0;
 }
