@@ -39,9 +39,8 @@ function App () {
                 Je suis un Developpeur Full-Stack. J'ai complété mes études en
                 Programmation et Technologie internet afin de me procurer les
                 competance necessaire pour performer dans un domaine qui me
-                passionne. Je suis quelqu'un de <strong>Passionner</strong>,{' '}
-                <strong>Autodidacte</strong> et
-                <strong>Polyvalent</strong>.
+                passionne. Je suis quelqu'un de <strong>Passionné</strong>,{' '}
+                <strong>Autodidacte</strong> et <strong>Polyvalent</strong>.
               </p>
               <p>
                 Et voici mon <strong>Portfolio</strong>.
