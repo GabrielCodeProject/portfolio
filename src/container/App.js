@@ -36,6 +36,14 @@ function App () {
                 </h1>
               </header>
               <p>
+                Je suis un Developpeur Full-Stack. J'ai complété mes études en
+                Programmation et Technologie internet afin de me procurer les
+                competance necessaire pour performer dans un domaine qui me
+                passionne. Je suis quelqu'un de <strong>Passionner</strong>,{' '}
+                <strong>Autodidacte</strong> et
+                <strong>Polyvalent</strong>.
+              </p>
+              <p>
                 Et voici mon <strong>Portfolio</strong>.
               </p>
             </div>
@@ -46,13 +54,13 @@ function App () {
       <article id='work' class='wrapper style2'>
         <div class='container'>
           <header>
-            <h2>Here's all the stuff I do.</h2>
+            <h2>Skills & Experience</h2>
           </header>
           <div class='row aln-center'>
             <div class='col-4 col-6-medium col-12-small'>
               <section class='box style1'>
                 <span class='icon featured fa-comments' />
-                <h3>Integrateur Web</h3>
+                <h3>Developpeur Front-End</h3>
                 <p>
                   Ornare nulla proin odio consequat sapien vestibulum ipsum
                   primis sed amet consequat lorem dolore.
@@ -63,7 +71,7 @@ function App () {
             <div class='col-4 col-6-medium col-12-small'>
               <section class='box style1'>
                 <span class='icon solid featured fa-camera-retro' />
-                <h3>Developpeur Full Stack</h3>
+                <h3>Developpeur Back-End</h3>
                 <p>
                   Ornare nulla proin odio consequat sapien vestibulum ipsum
                   primis sed amet consequat lorem dolore.
