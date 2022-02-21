@@ -102,7 +102,7 @@ function App () {
           <div class='row'>
             <div class='col-4 col-6-medium col-12-small'>
               <article class='box style2'>
-                <img src='../css/images/gab.jpg' alt='' />
+                <img src='images/gab.jpg' alt='' />
                 <h3>Journee Carriere</h3>
                 <p>Ornare nulla proin odio consequat.</p>
                 <a href='https://github.com/GabrielCodeProject/JourneeCarriere'>
@@ -114,7 +114,7 @@ function App () {
             <div class='col-4 col-6-medium col-12-small'>
               <article class='box style2'>
                 <a href='#' class='image featured'>
-                  <img src='img/gab.jpg' alt='' />
+                  <img src='images/gab.jpg' alt='' />
                 </a>
                 <h3>Musik</h3>
                 <p>Ornare nulla proin odio consequat.</p>
@@ -126,7 +126,7 @@ function App () {
 
             <div class='col-4 col-6-medium col-12-small'>
               <article class='box style2'>
-                <img src='./css/images/gab.jpg' alt='' />
+                <img src='images/gab.jpg' alt='' />
                 <h3>Memoire</h3>
                 <p>Ornare nulla proin odio consequat.</p>
                 <a href='https://github.com/GabrielCodeProject/Memoire'>
@@ -138,7 +138,7 @@ function App () {
             <div class='col-4 col-6-medium col-12-small'>
               <article class='box style2'>
                 <a href='#' class='image featured'>
-                  <img src='./img/gab.jpg' alt='' />
+                  <img src='images/gab.jpg' alt='' />
                 </a>
                 <h3>GainzTime</h3>
                 <p>Ornare nulla proin odio consequat.</p>
@@ -151,7 +151,7 @@ function App () {
             <div class='col-4 col-6-medium col-12-small'>
               <article class='box style2'>
                 <a href='#' class='image featured'>
-                  <img src='./img/gab.jpg' alt='' />
+                  <img src='./images/gab.jpg' alt='' />
                 </a>
                 <h3>StarGraze</h3>
                 <a
