@@ -26,7 +26,7 @@ function App () {
           <div class='row'>
             <div class='col-4 col-5-large col-12-medium'>
               <span class='image fit'>
-                <img src='img/gab.jpg' alt='' />
+                <img src='images/gab.jpg' alt='' />
               </span>
             </div>
             <div class='col-8 col-7-large col-12-medium'>
