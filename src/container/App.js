@@ -102,7 +102,9 @@ function App () {
           <div class='row'>
             <div class='col-4 col-6-medium col-12-small'>
               <article class='box style2'>
-                <img src='images/gab.jpg' alt='' />
+                <a href='#' class='image featured'>
+                  <img src='images/gab.jpg' alt='' />
+                </a>
                 <h3>Journee Carriere</h3>
                 <p>Ornare nulla proin odio consequat.</p>
                 <a href='https://github.com/GabrielCodeProject/JourneeCarriere'>
@@ -126,7 +128,9 @@ function App () {
 
             <div class='col-4 col-6-medium col-12-small'>
               <article class='box style2'>
-                <img src='images/gab.jpg' alt='' />
+                <a href='#' class='image featured'>
+                  <img src='images/gab.jpg' alt='' />
+                </a>
                 <h3>Memoire</h3>
                 <p>Ornare nulla proin odio consequat.</p>
                 <a href='https://github.com/GabrielCodeProject/Memoire'>
@@ -151,7 +155,7 @@ function App () {
             <div class='col-4 col-6-medium col-12-small'>
               <article class='box style2'>
                 <a href='#' class='image featured'>
-                  <img src='./images/gab.jpg' alt='' />
+                  <img src='images/gab.jpg' alt='' />
                 </a>
                 <h3>StarGraze</h3>
                 <a
@@ -178,6 +182,7 @@ function App () {
               </article>
             </div>
           </div>
+
           <footer>
             <a href='#contact' class='button large scrolly'>
               Get in touch with me
