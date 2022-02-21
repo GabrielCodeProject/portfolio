@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 import '../css/App.css'
 function App () {
@@ -149,11 +150,13 @@ function App () {
 
             <div class='col-4 col-6-medium col-12-small'>
               <article class='box style2'>
-                <img src='./img/gab.jpg' class='image featured' alt='' />
+                <a href='#' class='image featured'>
+                  <img src='./img/gab.jpg' alt='' />
+                </a>
                 <h3>StarGraze</h3>
                 <a
                   href='https://gabrielcodeproject.itch.io/spacegaze?secret=N234BvIkw2xGpcHt897BwabrU'
-                  class='button large scrolly'
+                  class='button small scrolly'
                 >
                   Play Demo
                 </a>
