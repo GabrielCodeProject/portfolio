@@ -356,7 +356,10 @@ function App () {
           </footer>
         </div>
       </article>
-
+      <script
+        src='https://kit.fontawesome.com/36e7a159bf.js'
+        crossorigin='anonymous'
+      ></script>
       <script src='../js/jquery.min.js' />
       <script src='../js/jquery.scrolly.min.js' />
       <script src='../js/browser.min.js' />
