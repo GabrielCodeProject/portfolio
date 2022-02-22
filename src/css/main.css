@@ -31,6 +31,9 @@
   background: #b30000;
 }
 
+.master-container::-webkit-scrollbar {
+  display: none;
+}
 .chart {
   margin-bottom: 2rem;
 }
@@ -48,10 +51,10 @@
   background-color: red;
   transition: width 1.3s ease-out;
 }
-.App:hover {
+.master-container:hover {
   color: rgba(0, 0, 0, 0.3);
 }
-.App {
+.master-container {
   color: rgba(0, 0, 0, 0);
   -webkit-text-fill-color: black;
   box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
