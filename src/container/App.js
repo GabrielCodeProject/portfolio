@@ -116,12 +116,13 @@ function App () {
                 </a>
                 <h3>Journée Carrière</h3>
                 <p>
-                  Site Web permettant de créer et de faire la gestion d'une
-                  journée carrière. Il contient aussi une application mobile,
-                  qui permet aux utilisateurs inscrits de se connecter.
-                  L'application permet de voir ton horaire, ta liste de meeting
-                  avec les détails de celle-ci et le profil de certain
-                  utilisateur selon son type de connexion.
+                  <strong>Site Web</strong> permettant de créer et de faire la
+                  gestion d'une journée carrière. Il contient aussi une{' '}
+                  <strong>application mobile</strong> développée en{' '}
+                  <strong>Java</strong>, qui permet aux utilisateurs inscrits de
+                  se connecter. L'application permet de voir ton horaire, ta
+                  liste de meeting avec les détails de celle-ci et le profil de
+                  certain utilisateur selon son type de connexion.
                 </p>
                 <a href='https://github.com/GabrielCodeProject/JourneeCarriere'>
                   Lien github
@@ -136,10 +137,10 @@ function App () {
                 </a>
                 <h3>Musik</h3>
                 <p>
-                  Site Web static d'apparence E-Boutique sur le thème de la
-                  vente de cours de musique et materiel de musique tel que
-                  diverses Guitares. Utilisant uniquement{' '}
-                  <strong>HTML/CSS</strong> avec un{' '}
+                  <strong>Site Web</strong> static d'apparence{' '}
+                  <strong>E-Boutique</strong> sur le thème de la vente de cours
+                  de musique et materiel de musique tel que diverses Guitares.
+                  Utilisant uniquement <strong>HTML/CSS</strong> avec un{' '}
                   <strong>Design Responsive</strong> sur plusieurs platformes{' '}
                   <strong>mobiles, tablettes et desktops</strong>.
                 </p>
