@@ -62,7 +62,7 @@ function App () {
                 <h3>Intégration Web</h3>
                 <p>
                   Intégration <strong>HTML / CSS</strong> qui respecte les{' '}
-                  <a href='lien vers les standards'>standards du Web</a>. Design
+                  <a href='lien vers les standards'>standards du Web</a>. Design{' '}
                   <strong>responsive</strong> et <strong>dynamique</strong>,
                   compatible sur plusieurs formats tels que{' '}
                   <span>mobile, tablette et desktop.</span>
