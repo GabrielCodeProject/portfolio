@@ -19,7 +19,7 @@ function App () {
               <a href='#contact'>Contact</a>
             </li>
             <li>
-              <a href='portfolio/test.html'>New Page</a>
+              <a href='./test.html'>New Page</a>
             </li>
           </ul>
         </nav>
