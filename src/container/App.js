@@ -41,6 +41,7 @@ function App () {
                 competance necessaire pour performer dans un domaine qui me
                 passionne. Je suis quelqu'un de <strong>Passionné</strong>,{' '}
                 <strong>Autodidacte</strong> et <strong>Polyvalent</strong>.
+                <br /> Et voici mon <strong>Portfolio</strong>.
               </p>
               <p>
                 Et voici mon <strong>Portfolio</strong>.
