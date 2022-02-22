@@ -120,7 +120,7 @@ function App () {
               <div class='col-4 col-6-medium col-12-small'>
                 <article class='box style2'>
                   <a href='#' class='image featured'>
-                    <img src='images/gab.jpg' alt='' />
+                    <img src='images/journeecarriereshowcase.png' alt='' />
                   </a>
                   <h3>Journée Carrière</h3>
                   <p>
@@ -141,7 +141,7 @@ function App () {
               <div class='col-4 col-6-medium col-12-small'>
                 <article class='box style2'>
                   <a href='#' class='image featured'>
-                    <img src='images/gab.jpg' alt='' />
+                    <img src='images/musikshowcase.png' alt='' />
                   </a>
                   <h3>Musik</h3>
                   <p>
@@ -161,7 +161,7 @@ function App () {
               <div class='col-4 col-6-medium col-12-small'>
                 <article class='box style2'>
                   <a href='#' class='image featured'>
-                    <img src='images/gab.jpg' alt='' />
+                    <img src='images/memoireShowCaseX.png' alt='' />
                   </a>
                   <h3>Mémoire</h3>
                   <p>
@@ -180,7 +180,7 @@ function App () {
               <div class='col-4 col-6-medium col-12-small'>
                 <article class='box style2'>
                   <a href='#' class='image featured'>
-                    <img src='images/gab.jpg' alt='' />
+                    <img src='images/gainztimeshowcase.png' alt='' />
                   </a>
                   <h3>GainzTime</h3>
                   <p>
@@ -199,7 +199,7 @@ function App () {
               <div class='col-4 col-6-medium col-12-small'>
                 <article class='box style2'>
                   <a href='#' class='image featured'>
-                    <img src='images/gab.jpg' alt='' />
+                    <img src='images/stargrazeshowcase.png' alt='' />
                   </a>
                   <h3>StarGraze</h3>
                   <p>
