@@ -42,10 +42,7 @@ function App () {
                 <strong>Autodidacte</strong> et <strong>Polyvalent</strong>.
                 <br /> Et voici mon <strong>Portfolio</strong>.
               </p>
-              <a href='css/GabrielCV2022.pdf' download>
-                telecharge
-              </a>
-              <a href='./GabrielCV2022.pdf' download>
+              <a href='./GabrielCV2022.pdf' class='button small' download>
                 download
               </a>
             </div>
