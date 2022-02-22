@@ -228,36 +228,6 @@ function App () {
                   </a>
                 </article>
               </div>
-
-              <div class='col-4 col-6-medium col-12-small'>
-                <article class='box style2'>
-                  <a href='#' class='image featured'>
-                    <img src='images/gab.jpg' alt='' />
-                  </a>
-                  <h3>Portfolio</h3>
-                  <div class='chart'>
-                    <span>SkillBar Template</span>
-                    <footer>
-                      <div
-                        width='95%'
-                        //style='width: 95%;'
-                      ></div>
-                    </footer>
-                  </div>
-                  <div class='chart'>
-                    <span>SkillBar Template</span>
-                    <footer>
-                      <div
-                        width='95%'
-                        //style='background: rgb(210, 108, 213); width: 95%;'
-                      ></div>
-                    </footer>
-                  </div>
-                  <a href='https://github.com/gitname/react-gh-pages'>
-                    tutorial
-                  </a>
-                </article>
-              </div>
             </div>
 
             <footer>
