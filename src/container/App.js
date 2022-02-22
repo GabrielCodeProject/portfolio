@@ -121,8 +121,7 @@ function App () {
                   qui permet a des utilisateurs inscrits de ce connecter.
                   L'application permet de voir ton horaire, ta liste de meeting
                   avec les details de celle-ci et le profile de certain
-                  utilisateur selon son type de connection
-                  [Admin,Employeur,Employer,Etudiant].
+                  utilisateur selon son type de connection.
                 </p>
                 <a href='https://github.com/GabrielCodeProject/JourneeCarriere'>
                   Lien github
@@ -295,10 +294,10 @@ function App () {
                   <div class='col-12'>
                     <ul class='actions'>
                       <li>
-                        <input type='submit' value='Send Message' />
+                        <input type='submit' value='Envoyer' />
                       </li>
                       <li>
-                        <input type='reset' value='Clear Form' class='alt' />
+                        <input type='reset' value='Clear' class='alt' />
                       </li>
                     </ul>
                   </div>
@@ -323,6 +322,22 @@ function App () {
                     class='icon brands fa-github'
                   >
                     <span class='label'>Github</span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href='./GabrielCV2022.pdf'
+                    class='icon brands fa-floppy-disk'
+                  >
+                    <span class='label'>CV</span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href='Gabrielprivermsg@gmail.com'
+                    class='icon brands fa-mailbox'
+                  >
+                    <span class='label'>Mail</span>
                   </a>
                 </li>
               </ul>
