@@ -222,7 +222,10 @@ function App () {
                 <div class='chart'>
                   <span>SkillBar Template</span>
                   <footer>
-                    <div data-width='95%' style='width: 95%;'></div>
+                    <div
+                      data-width='95%'
+                      //style='width: 95%;'
+                    ></div>
                   </footer>
                 </div>
                 <div class='chart'>
@@ -230,7 +233,7 @@ function App () {
                   <footer>
                     <div
                       data-width='95%'
-                      style='background: rgb(210, 108, 213); width: 95%;'
+                      //style='background: rgb(210, 108, 213); width: 95%;'
                     ></div>
                   </footer>
                 </div>
