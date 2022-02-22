@@ -95,7 +95,7 @@ function App () {
 
           <footer>
             <a href='#portfolio' class='button large scrolly'>
-              See some of my recent work
+              Voir mes projets.
             </a>
           </footer>
         </div>
@@ -104,7 +104,7 @@ function App () {
       <article id='portfolio' class='wrapper style3'>
         <div class='container'>
           <header>
-            <h2>Here’s some stuff I made recently.</h2>
+            <h2>Mes projets</h2>
           </header>
           <div class='row'>
             <div class='col-4 col-6-medium col-12-small'>
@@ -113,7 +113,15 @@ function App () {
                   <img src='images/gab.jpg' alt='' />
                 </a>
                 <h3>Journee Carriere</h3>
-                <p>Ornare nulla proin odio consequat.</p>
+                <p>
+                  Site Web permetant de creer et de faire la gestion d'une
+                  journee carriere. Il contient aussi une application mobile,
+                  qui permet a des utilisateurs inscrits de ce connecter.
+                  L'application permet de voir ton horaire, ta liste de meeting
+                  avec les details de celle-ci et le profile de certain
+                  utilisateur selon son type de connection
+                  [Admin,Employeur,Employer,Etudiant].
+                </p>
                 <a href='https://github.com/GabrielCodeProject/JourneeCarriere'>
                   Lien github
                 </a>
@@ -126,7 +134,14 @@ function App () {
                   <img src='images/gab.jpg' alt='' />
                 </a>
                 <h3>Musik</h3>
-                <p>Ornare nulla proin odio consequat.</p>
+                <p>
+                  Site Web static d'apparance E-Boutique sur le theme de la
+                  vente de cours de musique et material de musique tel que
+                  diverses Guitares. Utilisant uniquement{' '}
+                  <strong>HTML/CSS</strong> avec un
+                  <strong>Design Responsive</strong> sur plusieurs platformes{' '}
+                  <strong>mobiles, tablettes et desktops</strong>.
+                </p>
                 <a href='https://github.com/GabrielCodeProject/Musik'>
                   Lien github
                 </a>
@@ -139,7 +154,13 @@ function App () {
                   <img src='images/gab.jpg' alt='' />
                 </a>
                 <h3>Memoire</h3>
-                <p>Ornare nulla proin odio consequat.</p>
+                <p>
+                  Jeux de Memoire Web qui a pour objectif de trouve chair pair
+                  de carte. Le jeu contient un systeme de pointage et de
+                  difficulter. Cette page utilise uniquement{' '}
+                  <strong>HTML/CSS</strong> et{' '}
+                  <a href='lien vers javascript'>Javascript</a>
+                </p>
                 <a href='https://github.com/GabrielCodeProject/Memoire'>
                   Lien github
                 </a>
@@ -152,7 +173,12 @@ function App () {
                   <img src='images/gab.jpg' alt='' />
                 </a>
                 <h3>GainzTime</h3>
-                <p>Ornare nulla proin odio consequat.</p>
+                <p>
+                  Application Mobile, developper en Java avec Android Studio,
+                  permetant de remplire un formulaire profil de l'athlete,
+                  suivre ca progression physique, son entrainement du jour, et
+                  de creer un plan aleatoire.
+                </p>
                 <a href='https://github.com/GabrielCodeProject/GainzTime'>
                   Lien github
                 </a>
@@ -165,27 +191,25 @@ function App () {
                   <img src='images/gab.jpg' alt='' />
                 </a>
                 <h3>StarGraze</h3>
+                <p>
+                  Jeu developper lors du Game Jam Montreal en janvier 2020 a
+                  l'ETS sur la thematique "Repair". Utilisant Unity et C# lors
+                  du developpement, nous avons concu en equipe de cinq,
+                  StarGraze ! "Pris dans une chaine d'asteroid, tu devras
+                  reparer ton vesseau qui ce fait heurter par les asteroids.
+                  Grace a la toolbar d'outils, tu pourras reparer ton vaisseau
+                  et survivre."
+                </p>
                 <a
                   href='https://gabrielcodeproject.itch.io/spacegaze?secret=N234BvIkw2xGpcHt897BwabrU'
                   class='button small scrolly'
                 >
-                  Play Demo
+                  Essayer la demo
                 </a>
                 <br></br>
                 <a href='https://github.com/GabrielCodeProject/StarGraze'>
                   Lien github
                 </a>
-              </article>
-            </div>
-
-            <div class='col-4 col-6-medium col-12-small'>
-              <article class='box style2'>
-                <a href='#' class='image featured'>
-                  <img src='images/gab.jpg' alt='' />
-                </a>
-                <h3>Portfolio</h3>
-                <p>Lien utile pour un github page</p>
-                <a href='https://github.com/gitname/react-gh-pages'>tutorial</a>
               </article>
             </div>
           </div>
