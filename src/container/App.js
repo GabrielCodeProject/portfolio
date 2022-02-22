@@ -2,7 +2,7 @@
 import React from 'react'
 function App () {
   return (
-    <div className='App'>
+    <div className='App' class='full-view-con'>
       <div class='master-container'>
         <nav id='nav'>
           <ul class='container'>
@@ -17,6 +17,9 @@ function App () {
             </li>
             <li>
               <a href='#contact'>Contact</a>
+            </li>
+            <li>
+              <a href='../test.html'>New Page</a>
             </li>
           </ul>
         </nav>

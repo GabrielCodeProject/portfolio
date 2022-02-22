@@ -11,3 +11,43 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.full-view-container {
+}
+
+.master-container {
+  display: grid;
+  grid-template-columns: max-content;
+  grid-template-rows: auto;
+  grid-template-areas:
+    'header'
+    'bio'
+    'competances'
+    'projets'
+    'contact'
+    'footer';
+}
+.header-container {
+  grid-area: header;
+  background-color: red;
+}
+.bio-container {
+  grid-area: bio;
+  background-color: rebeccapurple;
+}
+.competances-container {
+  grid-area: competances;
+  background-color: royalblue;
+}
+.projets-container {
+  grid-area: projets;
+  background-color: green;
+}
+.contact-container {
+  grid-area: contact;
+  background-color: goldenrod;
+}
+.footer-container {
+  grid-area: footer;
+  background-color: pink;
+}

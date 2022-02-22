@@ -24,10 +24,10 @@
   background-color: red;
   transition: width 1.3s ease-out;
 }
-.master-container:hover {
+.full-view-container:hover {
   color: rgba(0, 0, 0, 0.3);
 }
-.master-container {
+.full-view-container {
   color: rgba(0, 0, 0, 0);
   -webkit-text-fill-color: black;
   box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
