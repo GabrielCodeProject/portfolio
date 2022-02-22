@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import './css/index.css'
 import './css/main.css'
-import 'test.html'
+import './test.html'
 import App from './container/App'
 import reportWebVitals from './buildInFile/reportWebVitals'
 
