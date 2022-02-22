@@ -35,15 +35,15 @@ function App () {
                 </h1>
               </header>
               <p>
-                Je suis un Developpeur Full-Stack. J'ai complété mes études en
+                Je suis un Développeur Full-Stack. J'ai complété mes études en
                 Programmation et Technologie internet afin de me procurer les
-                competance necessaire pour performer dans un domaine qui me
-                passionne. Je suis quelqu'un de <strong>Passionné</strong>,{' '}
+                compétences nécessaires pour performer dans un domaine qui me
+                fascine. Je suis quelqu'un de <strong>Passionné</strong>,{' '}
                 <strong>Autodidacte</strong> et <strong>Polyvalent</strong>.
                 <br /> Et voici mon <strong>Portfolio</strong>.
               </p>
               <a href='./GabrielCV2022.pdf' class='button small' download>
-                download
+                Mon CV
               </a>
             </div>
           </div>
@@ -53,17 +53,17 @@ function App () {
       <article id='work' class='wrapper style2'>
         <div class='container'>
           <header>
-            <h2>Mes competances</h2>
+            <h2>Mes compétences</h2>
           </header>
           <div class='row aln-center'>
             <div class='col-4 col-6-medium col-12-small'>
               <section class='box style1'>
                 <span class='icon featured fa-comments' />
-                <h3>Integration Web</h3>
+                <h3>Intégration Web</h3>
                 <p>
-                  Integration HTML / CSS qui respect les standards du Web.
+                  Intégration HTML / CSS qui respecte les standards du Web.
                   Design responsive et dynamique, compatible sur plusieurs
-                  format tel que mobile, tablette et desktop.
+                  formats tels que mobile, tablette et desktop.
                 </p>
               </section>
             </div>
@@ -73,9 +73,10 @@ function App () {
                 <span class='icon solid featured fa-camera-retro' />
                 <h3>Back-End</h3>
                 <p>
-                  Connection avec un API REST, Traitement de donner recu par une
-                  base de donner <strong>[</strong> MySQL, PostgreSQL, MariaDB,
-                  SQLLite <strong>]</strong> et un systeme d'authentification.
+                  Connection avec un API REST, Traitement de données reçu par
+                  une base de données <strong>[</strong> MySQL, PostgreSQL,
+                  MariaDB, SQLite <strong>]</strong> et un système
+                  d'authentification.
                 </p>
               </section>
             </div>
@@ -85,11 +86,10 @@ function App () {
                 <span class='icon featured fa-thumbs-up' />
                 <h3>Mobile</h3>
                 <p>
-                  Developpement d'application mobile avec Android Studio
-                  utilisant Java. De plus, jetudie aussi le framework{' '}
-                  <a href='lien vers flutter'>flutter </a>
-                  qui utilise le langage dart que lon peut comparer a
-                  javascript.
+                  Développement d'application mobile avec Android Studio
+                  utilisant Java. De plus, j'étudie aussi le framework{' '}
+                  <a href='lien vers flutter'>flutter</a> qui utilise le langage
+                  dart que l'on peut comparer à javascript.
                 </p>
               </section>
             </div>
@@ -114,14 +114,14 @@ function App () {
                 <a href='#' class='image featured'>
                   <img src='images/gab.jpg' alt='' />
                 </a>
-                <h3>Journee Carriere</h3>
+                <h3>Journée Carrière</h3>
                 <p>
-                  Site Web permetant de creer et de faire la gestion d'une
-                  journee carriere. Il contient aussi une application mobile,
-                  qui permet a des utilisateurs inscrits de ce connecter.
+                  Site Web permettant de créer et de faire la gestion d'une
+                  journée carrière. Il contient aussi une application mobile,
+                  qui permet aux utilisateurs inscrits de se connecter.
                   L'application permet de voir ton horaire, ta liste de meeting
-                  avec les details de celle-ci et le profile de certain
-                  utilisateur selon son type de connection.
+                  avec les détails de celle-ci et le profil de certain
+                  utilisateur selon son type de connexion.
                 </p>
                 <a href='https://github.com/GabrielCodeProject/JourneeCarriere'>
                   Lien github
@@ -136,8 +136,8 @@ function App () {
                 </a>
                 <h3>Musik</h3>
                 <p>
-                  Site Web static d'apparance E-Boutique sur le theme de la
-                  vente de cours de musique et material de musique tel que
+                  Site Web static d'apparence E-Boutique sur le thème de la
+                  vente de cours de musique et materiel de musique tel que
                   diverses Guitares. Utilisant uniquement{' '}
                   <strong>HTML/CSS</strong> avec un
                   <strong>Design Responsive</strong> sur plusieurs platformes{' '}
@@ -154,11 +154,11 @@ function App () {
                 <a href='#' class='image featured'>
                   <img src='images/gab.jpg' alt='' />
                 </a>
-                <h3>Memoire</h3>
+                <h3>Mémoire</h3>
                 <p>
-                  Jeux de Memoire Web qui a pour objectif de trouve chair pair
-                  de carte. Le jeu contient un systeme de pointage et de
-                  difficulter. Cette page utilise uniquement{' '}
+                  Jeux de Mémoire Web qui a pour objectif de trouver chaque pair
+                  de carte. Le jeu contient un système de pointage et de
+                  difficulté. Cette page utilise uniquement{' '}
                   <strong>HTML/CSS</strong> et{' '}
                   <a href='lien vers javascript'>Javascript</a>
                 </p>
@@ -175,10 +175,10 @@ function App () {
                 </a>
                 <h3>GainzTime</h3>
                 <p>
-                  Application Mobile, developper en Java avec Android Studio,
-                  permetant de remplire un formulaire profil de l'athlete,
-                  suivre ca progression physique, son entrainement du jour, et
-                  de creer un plan aleatoire.
+                  Application Mobile, développée en Java avec Android Studio,
+                  permettant de remplir un formulaire profil de l'athlète,
+                  suivre sa progression physique, son entraînement du jour, et
+                  de créer un plan aléatoire.
                 </p>
                 <a href='https://github.com/GabrielCodeProject/GainzTime'>
                   Lien github
@@ -193,19 +193,19 @@ function App () {
                 </a>
                 <h3>StarGraze</h3>
                 <p>
-                  Jeu developper lors du Game Jam Montreal en janvier 2020 a
-                  l'ETS sur la thematique "Repair". Utilisant Unity et C# lors
-                  du developpement, nous avons concu en equipe de cinq,
-                  StarGraze ! "Pris dans une chaine d'asteroid, tu devras
-                  reparer ton vesseau qui ce fait heurter par les asteroids.
-                  Grace a la toolbar d'outils, tu pourras reparer ton vaisseau
-                  et survivre."
+                  Jeu développé lors du Game Jam Montréal en janvier 2020 à
+                  l'ÉTS sur la thématique “Repair”. Utilisant Unity et C# lors
+                  du développement, nous avons conçu en équipe de cinq,
+                  StarGraze ! "Pris dans une chaîne d'asteroid, tu devras
+                  réparer ton vaisseau qui se fait heurter par les asteroids.
+                  Grâce au toolbar d'outils, tu pourras réparer ton vaisseau et
+                  survivre."
                 </p>
                 <a
                   href='https://gabrielcodeproject.itch.io/spacegaze?secret=N234BvIkw2xGpcHt897BwabrU'
                   class='button small scrolly'
                 >
-                  Essayer la demo
+                  Essayer la démo
                 </a>
                 <br></br>
                 <a href='https://github.com/GabrielCodeProject/StarGraze'>
