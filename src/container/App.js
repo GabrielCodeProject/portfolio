@@ -337,12 +337,12 @@ function App () {
         </div>
       </article>
 
-      <script src='assets/js/jquery.min.js' />
-      <script src='assets/js/jquery.scrolly.min.js' />
-      <script src='assets/js/browser.min.js' />
-      <script src='assets/js/breakpoints.min.js' />
-      <script src='assets/js/util.js' />
-      <script src='assets/js/main.js' />
+      <script src='../js/jquery.min.js' />
+      <script src='../js/jquery.scrolly.min.js' />
+      <script src='../js/browser.min.js' />
+      <script src='../js/breakpoints.min.js' />
+      <script src='../js/util.js' />
+      <script src='../js/main.js' />
     </div>
   )
 }
