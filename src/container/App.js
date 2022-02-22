@@ -157,9 +157,9 @@ function App () {
                 </a>
                 <h3>Mémoire</h3>
                 <p>
-                  Jeux de Mémoire Web qui a pour objectif de trouver chaque pair
-                  de carte. Le jeu contient un système de pointage et de
-                  difficulté. Cette page utilise uniquement{' '}
+                  Jeux de Mémoire <strong>Web</strong> qui a pour objectif de
+                  trouver chaque pair de carte. Le jeu contient un système de
+                  pointage et de difficulté. Cette page utilise uniquement{' '}
                   <strong>HTML/CSS</strong> et{' '}
                   <a href='lien vers javascript'>Javascript</a>
                 </p>
@@ -176,7 +176,8 @@ function App () {
                 </a>
                 <h3>GainzTime</h3>
                 <p>
-                  Application Mobile, développée en Java avec Android Studio,
+                  <strong>Application Mobile</strong>, développée en{' '}
+                  <strong>Java</strong> avec <strong>Android Studio</strong>,
                   permettant de remplir un formulaire profil de l'athlète,
                   suivre sa progression physique, son entraînement du jour, et
                   de créer un plan aléatoire.
@@ -194,13 +195,18 @@ function App () {
                 </a>
                 <h3>StarGraze</h3>
                 <p>
-                  Jeu développé lors du Game Jam Montréal en janvier 2020 à
-                  l'ÉTS sur la thématique “Repair”. Utilisant Unity et C# lors
-                  du développement, nous avons conçu en équipe de cinq,
-                  StarGraze ! "Pris dans une chaîne d'asteroid, tu devras
-                  réparer ton vaisseau qui se fait heurter par les asteroids.
-                  Grâce au toolbar d'outils, tu pourras réparer ton vaisseau et
-                  survivre."
+                  Jeu développé lors du{' '}
+                  <a href='lien si fonctionnel'>Game Jam Montréal</a> en janvier
+                  2020 à l'ÉTS sur la thématique “Repair”. Utilisant{' '}
+                  <strong>Unity</strong> et <strong>C#</strong>
+                  lors du développement, nous avons conçu en équipe de cinq,
+                  StarGraze !{' '}
+                  <span>
+                    "Pris dans une chaîne d'asteroid, tu devras réparer ton
+                    vaisseau qui se fait heurter par les asteroids. Grâce au
+                    toolbar d'outils, tu pourras réparer ton vaisseau et
+                    survivre."
+                  </span>
                 </p>
                 <a
                   href='https://gabrielcodeproject.itch.io/spacegaze?secret=N234BvIkw2xGpcHt897BwabrU'
