@@ -6,6 +6,26 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+
+::-webkit-scrollbar {
+  width: 50px;
+}
+
+/* track */
+::-webkit-scrollbar-track {
+  background-color: #181818;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
 .chart {
   margin-bottom: 2rem;
 }
