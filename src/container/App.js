@@ -139,7 +139,7 @@ function App () {
                   Site Web static d'apparence E-Boutique sur le thème de la
                   vente de cours de musique et materiel de musique tel que
                   diverses Guitares. Utilisant uniquement{' '}
-                  <strong>HTML/CSS</strong> avec un
+                  <strong>HTML/CSS</strong> avec un{' '}
                   <strong>Design Responsive</strong> sur plusieurs platformes{' '}
                   <strong>mobiles, tablettes et desktops</strong>.
                 </p>
