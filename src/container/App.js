@@ -53,16 +53,17 @@ function App () {
       <article id='work' class='wrapper style2'>
         <div class='container'>
           <header>
-            <h2>Skills & Experience</h2>
+            <h2>Mes competances</h2>
           </header>
           <div class='row aln-center'>
             <div class='col-4 col-6-medium col-12-small'>
               <section class='box style1'>
                 <span class='icon featured fa-comments' />
-                <h3>Developpeur Front-End</h3>
+                <h3>Integration Web</h3>
+                <p>Integration HTML / CSS qui respect les standards du Web.</p>
                 <p>
-                  Ornare nulla proin odio consequat sapien vestibulum ipsum
-                  primis sed amet consequat lorem dolore.
+                  Design responsive et dynamique, compatible sur plusieurs
+                  format: mobile, tablette, desktop
                 </p>
               </section>
             </div>
@@ -70,10 +71,11 @@ function App () {
             <div class='col-4 col-6-medium col-12-small'>
               <section class='box style1'>
                 <span class='icon solid featured fa-camera-retro' />
-                <h3>Developpeur Back-End</h3>
+                <h3>Back-End</h3>
                 <p>
-                  Ornare nulla proin odio consequat sapien vestibulum ipsum
-                  primis sed amet consequat lorem dolore.
+                  Connection avec un API REST, Traitement de donner recu par une
+                  base de donner <strong>[</strong> MySQL, PostgreSQL, MariaDB,
+                  SQLLite <strong>]</strong> et un systeme d'authentification.
                 </p>
               </section>
             </div>
@@ -81,10 +83,13 @@ function App () {
             <div class='col-4 col-6-medium col-12-small'>
               <section class='box style1'>
                 <span class='icon featured fa-thumbs-up' />
-                <h3>Developpeur Mobile</h3>
+                <h3>Mobile</h3>
                 <p>
-                  Ornare nulla proin odio consequat sapien vestibulum ipsum
-                  primis sed amet consequat lorem dolore.
+                  Developpement d'application mobile avec Android Studio
+                  utilisant Java. De plus, jetudie aussi le framework{' '}
+                  <a href='lien vers flutter'>flutter</a>
+                  qui utilise le langage dart que lon peut comparer a
+                  javascript.
                 </p>
               </section>
             </div>
