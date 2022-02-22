@@ -61,9 +61,11 @@ function App () {
                 <span class='icon featured fa-comments' />
                 <h3>Intégration Web</h3>
                 <p>
-                  Intégration HTML / CSS qui respecte les standards du Web.
-                  Design responsive et dynamique, compatible sur plusieurs
-                  formats tels que mobile, tablette et desktop.
+                  Intégration <strong>HTML / CSS</strong> qui respecte les{' '}
+                  <a href='lien vers les standards'>standards du Web</a>. Design
+                  <strong>responsive</strong> et <strong>dynamique</strong>,
+                  compatible sur plusieurs formats tels que{' '}
+                  <span>mobile, tablette et desktop.</span>
                 </p>
               </section>
             </div>
@@ -73,10 +75,10 @@ function App () {
                 <span class='icon solid featured fa-camera-retro' />
                 <h3>Back-End</h3>
                 <p>
-                  Connection avec un API REST, Traitement de données reçu par
-                  une base de données <strong>[</strong> MySQL, PostgreSQL,
-                  MariaDB, SQLite <strong>]</strong> et un système
-                  d'authentification.
+                  Connection avec un <strong>API REST</strong>, Traitement de
+                  données reçu par une base de données{' '}
+                  <span>"MySQL, PostgreSQL, MariaDB, SQLite"</span> et un
+                  système d'authentification.
                 </p>
               </section>
             </div>
@@ -86,10 +88,12 @@ function App () {
                 <span class='icon featured fa-thumbs-up' />
                 <h3>Mobile</h3>
                 <p>
-                  Développement d'application mobile avec Android Studio
-                  utilisant Java. De plus, j'étudie aussi le framework{' '}
-                  <a href='lien vers flutter'>flutter</a> qui utilise le langage
-                  dart que l'on peut comparer à javascript.
+                  Développement d'application <strong>mobile</strong> avec{' '}
+                  <strong>Android Studio</strong>
+                  utilisant <strong>Java</strong>. De plus, j'apprends aussi le
+                  framework <a href='lien vers flutter'>flutter</a> qui utilise
+                  le langage dart que l'on peut comparer à{' '}
+                  <a href='lien vers javascript'>javascript</a>.
                 </p>
               </section>
             </div>
