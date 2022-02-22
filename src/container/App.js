@@ -43,9 +43,6 @@ function App () {
                 <strong>Autodidacte</strong> et <strong>Polyvalent</strong>.
                 <br /> Et voici mon <strong>Portfolio</strong>.
               </p>
-              <p>
-                Et voici mon <strong>Portfolio</strong>.
-              </p>
             </div>
           </div>
         </div>
