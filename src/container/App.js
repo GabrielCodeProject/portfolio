@@ -326,19 +326,13 @@ function App () {
                 </li>
                 <li>
                   <i class='icon brands fa-solid fa-floppy-disk'></i>
-                  <a
-                    href='./GabrielCV2022.pdf'
-                    class='icon brands fa-floppy-disk'
-                  >
+                  <a href='./GabrielCV2022.pdf' class='icon fa-floppy-disk'>
                     <span class='label'>CV</span>
                   </a>
                 </li>
                 <li>
                   <i class='icon brands fa-solid fa-mailbox'></i>
-                  <a
-                    href='Gabrielprivermsg@gmail.com'
-                    class='icon brands fa-mailbox'
-                  >
+                  <a href='Gabrielprivermsg@gmail.com' class='icon fa-mailbox'>
                     <span class='label'>Mail</span>
                   </a>
                 </li>
