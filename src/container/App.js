@@ -60,10 +60,10 @@ function App () {
               <section class='box style1'>
                 <span class='icon featured fa-comments' />
                 <h3>Integration Web</h3>
-                <p>Integration HTML / CSS qui respect les standards du Web.</p>
                 <p>
+                  Integration HTML / CSS qui respect les standards du Web.
                   Design responsive et dynamique, compatible sur plusieurs
-                  format: mobile, tablette, desktop
+                  format tel que mobile, tablette et desktop.
                 </p>
               </section>
             </div>
@@ -87,7 +87,7 @@ function App () {
                 <p>
                   Developpement d'application mobile avec Android Studio
                   utilisant Java. De plus, jetudie aussi le framework{' '}
-                  <a href='lien vers flutter'>flutter</a>
+                  <a href='lien vers flutter'>flutter </a>
                   qui utilise le langage dart que lon peut comparer a
                   javascript.
                 </p>
