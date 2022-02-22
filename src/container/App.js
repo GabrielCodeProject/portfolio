@@ -202,9 +202,8 @@ function App () {
                   Jeu développé lors du{' '}
                   <a href='lien si fonctionnel'>Game Jam Montréal</a> en janvier
                   2020 à l'ÉTS sur la thématique “Repair”. Utilisant{' '}
-                  <strong>Unity</strong> et <strong>C#</strong>
-                  lors du développement, nous avons conçu en équipe de cinq,
-                  StarGraze !{' '}
+                  <strong>Unity</strong> et <strong>C#</strong> lors du
+                  développement, nous avons conçu en équipe de cinq, StarGraze !{' '}
                   <span>
                     "Pris dans une chaîne d'asteroid, tu devras réparer ton
                     vaisseau qui se fait heurter par les asteroids. Grâce au
