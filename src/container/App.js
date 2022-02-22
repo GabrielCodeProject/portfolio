@@ -243,7 +243,7 @@ function App () {
 
           <footer>
             <a href='#contact' class='button large scrolly'>
-              Get in touch with me
+              Contact moi
             </a>
           </footer>
         </div>
@@ -252,7 +252,7 @@ function App () {
       <article id='contact' class='wrapper style4'>
         <div class='container medium'>
           <header>
-            <h2>Have me make stuff for you.</h2>
+            <h2>Contact</h2>
           </header>
           <div class='row'>
             <div class='col-12'>
@@ -304,7 +304,7 @@ function App () {
             </div>
             <div class='col-12'>
               <hr />
-              <h3>Find me on ...</h3>
+              <h3>Trouve moi sur...</h3>
               <ul class='social'>
                 <li>
                   <a
