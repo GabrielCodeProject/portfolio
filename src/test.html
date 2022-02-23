@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="full-view-container ">
+    <div class="full-view-container">
         <div class="master-container">
             <div class="header-container">
                 <nav id='nav'>
@@ -30,18 +30,76 @@
                     </ul>
                   </nav>
             </div>
-            <div class="bio-container">
-                <p>test2</p>
-                <img src="./css/images/harrypotter/DeathlyHallows1200x1200.png" alt="" srcset=""/>
-
+            <div class="bio-container background-color-dark-green-theme">
+                    <img class="img-bio" src='css/images/gab.jpg' alt='' />
+                    <div class='biographie-container'>
+                      <header class="">
+                        <h1>
+                          Salut! Je suis <strong>Gabriel Lavigueur</strong>.
+                        </h1>
+                      </header>
+                      <p>
+                        Je suis un Développeur Full-Stack. J'ai complété mes études en
+                        Programmation et Technologie internet afin de me procurer les
+                        compétences nécessaires pour performer dans un domaine qui me
+                        fascine. Je suis quelqu'un de <strong>Passionné</strong>,{' '}
+                        <strong>Autodidacte</strong> et <strong>Polyvalent</strong>.
+                        <br /> Et voici mon <strong>Portfolio</strong>.
+                      </p>
+                      <a href='./GabrielCV2022.pdf' class='button small' download>
+                        Mon CV
+                      </a>
+                    </div>
             </div>
-            <div class="competances-container">
-                <p>test3</p>
-                <img src="./css/images/harrypotter/gryfindor250x300.png" alt="" srcset=""/>
-                
+            <div class="competances-container background-color-dark-green-theme">
+                    <header class="grand-titre">
+                      <h2>Mes compétences</h2>
+                    </header>
+                    <div class="list-competance-container">
+                      <div id="competance1-id" class='detail-competance '>
+                        <img class="img-competance" src="css/images/globe-180.png" alt="" srcset=""/>
+                        <h3 className="light">Intégration Web</h3>
+                          <p>
+                            Intégration <strong>HTML / CSS</strong> qui respecte les{' '}
+                            <a href='lien vers les standards'>standards du Web</a>.
+                            Design <strong>responsive</strong> et{' '}
+                            <strong>dynamique</strong>, compatible sur plusieurs formats
+                            tels que <span>mobile, tablette et desktop.</span>
+                          </p>
+                      </div>
+        
+                      <div id="competance2-id" class='detail-competance'>
+                        <img class="img-competance" src="css/images/development-128.png" alt="" srcset=""/>
+                          <h3>Back-End</h3>
+                          <p>
+                            Connection avec un <strong>API REST</strong>, Traitement de
+                            données reçu par une base de données{' '}
+                            <span>"MySQL, PostgreSQL, MariaDB, SQLite"</span> et un
+                            système d'authentification.
+                          </p>
+                      </div>
+        
+                      <div id="competance3-id" class='detail-competance'>
+                        <img class="img-competance" src="css/images/Mobile-Multiple-Devices-icon.png" alt="" srcset=""/>
+                          <h3>Mobile</h3>
+                          <p>
+                            Développement d'application <strong>mobile</strong> avec{' '}
+                            <strong>Android Studio</strong>
+                            utilisant <strong>Java</strong>. De plus, j'apprends aussi
+                            le framework <a href='lien vers flutter'>flutter</a> qui
+                            utilise le langage dart que l'on peut comparer à{' '}
+                            <a href='lien vers javascript'>javascript</a>.
+                          </p>
+                      </div>
+                    </div>
+                    <footer>
+                      <a href='#portfolio' class='button large scrolly'>
+                        Voir mes projets.
+                      </a>
+                    </footer>
             </div>
-            <div class="projets-master-container">
-                    <header>
+            <div class="projets-master-container background-color-dark-green-theme">
+                    <header class="grand-titre">
                       <h2>Mes projets</h2>
                     </header>
                     <div class="projets-list-container">
@@ -149,16 +207,22 @@
                     </div>
             </div>
             <div class="contact-container">
-                <p>test5</p>
-                <img src="./css/images/harrypotter/ravenclaw250x300.png" alt="" srcset=""/>
-                
+                    <header>
+                      <h2>Contact</h2>
+                    </header>
             </div>
             <div class="footer-container">
-                <p>test6</p>
-                <img src="./css/images/harrypotter/Slytherin250x300.png" alt="" srcset=""/>
-
+                <footer>
+                    <ul id='copyright'>
+                      <li>&copy; Untitled. All rights reserved.</li>
+                      <li>
+                        Design: <a href='http://html5up.net'>HTML5 UP</a>
+                      </li>
+                    </ul>
+                  </footer>
             </div>
         </div>
     </div>
 </body>
+<script src='./js/mainTest.js'></script>
 </html>
