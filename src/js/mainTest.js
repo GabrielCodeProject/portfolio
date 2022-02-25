@@ -16,9 +16,11 @@ window.addEventListener(
 
     competanceContainer2.addEventListener('mouseover', mouseOverLightText)
     competanceContainer2.addEventListener('mouseout', mouseOutCloseLightText)
+    competanceContainer2.addClass('light')
 
     competanceContainer3.addEventListener('mouseover', mouseOverLightText)
     competanceContainer3.addEventListener('mouseout', mouseOutCloseLightText)
+    competanceContainer3.addClass('light')
 
     function mouseOverLightText (event) {
       console.log(event.target)
