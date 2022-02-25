@@ -260,6 +260,7 @@ function App () {
           </ul>
         </footer>
       </div>
+      <script src='./js/mainTest.js'></script>
     </div>
   )
 }
