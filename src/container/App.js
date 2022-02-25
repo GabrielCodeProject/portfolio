@@ -6,7 +6,7 @@ function App () {
       <div class='header-container'>
         <nav id='nav'>
           <img
-            src='./css/images/harrypotter/platformHarrypotter.png'
+            src='images/harrypotter/platformHarrypotter.png'
             alt=''
             srcset=''
           />
@@ -25,15 +25,11 @@ function App () {
               <a href='#contact'>Contact</a>
             </li>
           </ul>
-          <img
-            src='./css/images/harrypotter/Slytherin250x300.png'
-            alt=''
-            srcset=''
-          />
+          <img src='images/harrypotter/Slytherin250x300.png' alt='' srcset='' />
         </nav>
       </div>
       <div class='bio-container background-color-dark-green-theme'>
-        <img class='img-bio' src='css/images/profil.jpg' alt='' />
+        <img class='img-bio' src='images/profil.jpg' alt='' />
         <div class='biographie-container'>
           <header class=''>
             <h1>
@@ -61,7 +57,7 @@ function App () {
           <div id='competance1-id' class='detail-competance '>
             <img
               class='img-competance'
-              src='css/images/globe-180.png'
+              src='images/globe-180.png'
               alt=''
               srcset=''
             />
@@ -80,7 +76,7 @@ function App () {
           <div id='competance2-id' class='detail-competance'>
             <img
               class='img-competance'
-              src='css/images/development-128.png'
+              src='images/development-128.png'
               alt=''
               srcset=''
             />
@@ -98,7 +94,7 @@ function App () {
           <div id='competance3-id' className='light' class='detail-competance'>
             <img
               class='img-competance'
-              src='css/images/Mobile-Multiple-Devices-icon.png'
+              src='images/Mobile-Multiple-Devices-icon.png'
               alt=''
               srcset=''
             />
@@ -127,7 +123,7 @@ function App () {
           <div class='project-container-detail'>
             <img
               class='img-projet'
-              src='css/images/journeecarriereshowcase.png'
+              src='images/journeecarriereshowcase.png'
               alt=''
             />
             <div class='projet-resumer'>
@@ -151,7 +147,7 @@ function App () {
           </div>
 
           <div class='project-container-detail'>
-            <img class='img-projet' src='css/images/musikshowcase.png' alt='' />
+            <img class='img-projet' src='images/musikshowcase.png' alt='' />
             <div class='projet-resumer'>
               <h3>Musik</h3>
               <p>
@@ -169,11 +165,7 @@ function App () {
           </div>
 
           <div class='project-container-detail'>
-            <img
-              class='img-projet'
-              src='css/images/memoireShowCaseX.png'
-              alt=''
-            />
+            <img class='img-projet' src='images/memoireShowCaseX.png' alt='' />
             <div class='projet-resumer'>
               <h3>Mémoire</h3>
               <p>
@@ -190,11 +182,7 @@ function App () {
           </div>
 
           <div class='project-container-detail'>
-            <img
-              class='img-projet'
-              src='css/images/gainztimeshowcase.png'
-              alt=''
-            />
+            <img class='img-projet' src='images/gainztimeshowcase.png' alt='' />
             <div class='projet-resumer'>
               <h3>GainzTime</h3>
               <p>
@@ -211,11 +199,7 @@ function App () {
           </div>
 
           <div class='project-container-detail'>
-            <img
-              class='img-projet'
-              src='css/images/stargrazeshowcase.png'
-              alt=''
-            />
+            <img class='img-projet' src='images/stargrazeshowcase.png' alt='' />
             <div class='projet-resumer'>
               <h3>StarGraze</h3>
               <p>
