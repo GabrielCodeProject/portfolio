@@ -8,7 +8,7 @@ window.addEventListener(
     const competanceContainer3 = document.getElementById('competance3-id')
     this.document.getElementsByClassName('light')
 
-    //const competanceTitle = document.getElementById('title-competance-light')
+    // const competanceTitle = document.getElementById('title-competance-light')
 
     competanceContainer1.addEventListener('mouseover', mouseOverLightText)
     competanceContainer1.addEventListener('mouseout', mouseOutCloseLightText)
@@ -26,12 +26,12 @@ window.addEventListener(
       console.log(event.target)
       event.target.style.textShadow =
         '0px 0px 5px #fff, #fff 0px 0px 10px, #fff 0px 0px 15px'
-      /*document.getElementsByClassName('light').style.textShadow =
-        '0px 0px 5px #fff, #fff 0px 0px 10px, #fff 0px 0px 15px'*/
+      /* document.getElementsByClassName('light').style.textShadow =
+        '0px 0px 5px #fff, #fff 0px 0px 10px, #fff 0px 0px 15px' */
     }
     function mouseOutCloseLightText (event) {
       event.target.style.textShadow = 'none'
-      /* document.getElementsByClassName('light').style.textShadow = 'none'*/
+      /* document.getElementsByClassName('light').style.textShadow = 'none' */
     }
   },
   false

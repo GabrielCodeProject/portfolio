@@ -1,5 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
+import BioComponent from '../component/biographie-component'
 function App () {
   return (
     <div class='master-container'>
@@ -11,7 +12,7 @@ function App () {
             srcset=''
           />
           <ul class='container'>
-            <li></li>
+            <li />
             <li>
               <a href='#top'>Top</a>
             </li>
@@ -30,6 +31,7 @@ function App () {
       </div>
       <div class='bio-container background-color-dark-green-theme'>
         <img class='img-bio' src='images/profil.jpg' alt='' />
+        <BioComponent />
         <div class='biographie-container'>
           <header class=''>
             <h1>
@@ -221,7 +223,7 @@ function App () {
               >
                 Essayer la démo
               </a>
-              <br></br>
+              <br />
               <a href='https://github.com/GabrielCodeProject/StarGraze'>
                 Lien github
               </a>
@@ -244,7 +246,7 @@ function App () {
           </ul>
         </footer>
       </div>
-      <script src='./js/mainTest.js'></script>
+      <script src='./js/mainTest.js' />
     </div>
   )
 }

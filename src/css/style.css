@@ -58,7 +58,7 @@ h3-big {
   width: 100%;
   z-index: 10000;
   cursor: default;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 #nav img {
   width: 100px;
