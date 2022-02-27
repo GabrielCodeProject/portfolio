@@ -331,12 +331,8 @@ code {
   }
 
   .img-competance {
-    width: 150px;
-    height: 150px;
-  }
-
-  .detail-competance:hover {
-    box-shadow: inset 0 0 25px whitesmoke;
+    width: 200px;
+    height: 200px;
   }
 
   .competances-container footer {
@@ -351,43 +347,147 @@ code {
     margin-bottom: 35px;
   }
   .project-container-detail {
-    display: flex;
-    flex-direction: column;
     width: calc(100vw - 10vw);
-    height: calc(100vh - 25vh);
-    border: 1px solid black;
-    border-radius: 25px;
-    background-color: #aaaaaa;
-    box-shadow: inset 0 0 50px #000000;
-    padding: 10px 0 10px 0;
-    align-items: center;
-  }
-
-  .project-container-detail:hover {
-    box-shadow: inset 0 0 25px whitesmoke;
-  }
-
-  .img-projet {
-    flex-grow: 1;
-    border-radius: 25px;
-    max-height: 60%;
-    max-width: 95%;
+    height: calc(100vh - 10vh);
+    padding: 15px 0 15px 0;
   }
 
   .projet-resumer {
-    flex-grow: 3;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 15px 25px 0 25px;
+    margin: 25px 50px 0 50px;
   }
 
   .projet-resumer p {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
   }
   .github-link {
-    border: 1px solid black;
-    border-radius: 15px;
+    width: 25%;
+    height: 25px;
+  }
+}
+
+@media screen and (max-width: 1279px) and (min-width: 980px) {
+  /* bio */
+
+  .img-bio {
+    max-width: calc(100vw - 35vw);
+    max-height: calc(100vh -35vh);
+    margin: 50px 0 35px 0;
+  }
+  .biographie-container {
+    row-gap: 50px;
+    margin-bottom: 50px;
+  }
+
+  .biographie-container header h1 {
+    font-size: 3.8rem;
+  }
+
+  .biographie-container p {
+    text-align: center;
+    font-size: 1.8rem;
+  }
+
+  /* competance container */
+
+  .competances-container header h2.grand-titre {
+    margin: 50px 0 50px 0;
+  }
+
+  .list-competance-container {
+    row-gap: 50px;
+    width: calc(100vw - 10vw);
+  }
+
+  .detail-competance h3.light {
+    font-size: 2.8rem;
+  }
+
+  .detail-competance p.p-big {
+    font-size: 1.8rem;
+    padding: 0 75px 0 75px;
+    margin: 2rem 0 2rem 0;
+  }
+
+  .img-competance {
+    width: 200px;
+    height: 200px;
+  }
+
+  .competances-container footer {
+    font-size: 2.5rem;
+    margin: 50px 10px 50px 10px;
+  }
+
+  /* projet */
+  .project-container-detail {
+    height: calc(100vh - 15vh);
+  }
+  .projets-list-container {
+    row-gap: 50px;
+    margin-bottom: 50px;
+  }
+
+  .projet-resumer {
+    margin: 25px 75px 25px 75px;
+  }
+
+  .projet-resumer h3.grand-titre-mobile {
+    font-size: 3rem;
+  }
+
+  .projet-resumer p {
+    font-size: 1.5rem;
+  }
+
+  /* footer */
+
+  .footer-container {
+    height: 15vh;
+  }
+
+  .footer-container footer ul li {
+    font-size: 1.5rem;
+  }
+
+  .footer-container span {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 1679px) and (min-width: 1280px) {
+  /* bio container */
+
+  .bio-container {
+    display: flex;
+    flex-direction: row;
+    height: calc(100vh - 25vh);
+  }
+  .img-bio {
+    max-width: calc(50vw - 10vw);
+    max-height: calc(50vh -10vh);
+    margin: 25px;
+  }
+  .biographie-container {
+    justify-content: center;
+    height: 100%;
+    margin-bottom: 0;
+    padding: 0 25px 0 25px;
+  }
+
+  .biographie-container header h1 {
+    font-size: 3rem;
+    margin-bottom: 25px;
+  }
+  .biographie-container p {
+    font-size: 1.9rem;
+  }
+  .biographie-container a {
+    font-size: 2.5rem;
+  }
+
+  .biographie-container a:hover {
+    background-color: whitesmoke;
+    transition: ease-out 1s;
   }
 }
 
@@ -405,87 +505,6 @@ code {
   }
   .projet-resumer {
     margin: 0 25px 0 25px;
-  }
-}
-
-@media screen and (max-width: 1679px) and (min-width: 1280px) {
-  /* bio */
-
-  .biographie-container header h1 {
-    font-size: 3.5rem;
-    text-align: start;
-  }
-
-  .biographie-container p {
-    font-size: 1.5rem;
-  }
-
-  /* projet */
-
-  .project-container-detail {
-    width: 85vw;
-    width: calc(100vw - 15vw);
-
-    height: 400px;
-  }
-  .img-projet {
-    max-width: 500px;
-  }
-}
-
-@media screen and (max-width: 1279px) and (min-width: 980px) {
-  /* bio */
-
-  .bio-container {
-    flex-direction: column;
-  }
-  .img-bio {
-    margin-right: 0px;
-  }
-  .biographie-container {
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-  }
-
-  .biographie-container header {
-    justify-content: center;
-  }
-
-  .biographie-container header h1 {
-    font-size: 3.5rem;
-    text-align: center;
-  }
-
-  .biographie-container p {
-    text-align: center;
-    font-size: 1.5rem;
-    padding: 0;
-  }
-
-  .biographie-container a {
-    align-self: center;
-  }
-
-  /* projet */
-
-  .projets-list-container {
-    align-content: center;
-  }
-  .project-container-detail {
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    width: calc(100vw - 25vw);
-    height: calc(100vh - 35vh);
-  }
-  .img-projet {
-    max-width: 450px;
-    max-height: 350px;
-    align-self: center;
-  }
-  .projet-resumer {
-    margin: 0 50px 0 50px;
   }
 }
 
