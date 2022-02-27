@@ -1,5 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
+import '../css/style.css'
 import BioComponent from '../component/biographie-component'
 function App () {
   return (
@@ -32,24 +33,6 @@ function App () {
       <div class='bio-container background-color-dark-green-theme'>
         <img class='img-bio' src='images/profil.jpg' alt='' />
         <BioComponent />
-        <div class='biographie-container'>
-          <header class=''>
-            <h1>
-              Salut! Je suis <strong>Gabriel Lavigueur</strong>.
-            </h1>
-          </header>
-          <p>
-            Je suis un Développeur Full-Stack. J'ai complété mes études en
-            Programmation et Technologie internet afin de me procurer les
-            compétences nécessaires pour performer dans un domaine qui me
-            fascine. Je suis quelqu'un de <strong>Passionné</strong>,{' '}
-            <strong>Autodidacte</strong> et <strong>Polyvalent</strong>.
-            <br /> Et voici mon <strong>Portfolio</strong>.
-          </p>
-          <a href='./GabrielCV2022.pdf' class='' download>
-            Mon CV
-          </a>
-        </div>
       </div>
       <div class='competances-container background-color-dark-green-theme'>
         <header class='grand-titre'>

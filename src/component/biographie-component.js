@@ -15,7 +15,7 @@ const BioComponent = ({ text, photo }) => (
       <strong>Polyvalent</strong>.
       <br /> Et voici mon <strong>Portfolio</strong>.
     </p>
-    <a href='./GabrielCV2022.pdf' class='' download>
+    <a href='./GabrielCV2022.pdf' download>
       Mon CV
     </a>
   </div>

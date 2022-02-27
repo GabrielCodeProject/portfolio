@@ -3,12 +3,13 @@ import ReactDOM from 'react-dom'
 import './css/style.css'
 import App from './container/App'
 import reportWebVitals from './buildInFile/reportWebVitals'
+import MainContainer from './container/main-container'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <MainContainer />
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById('app')
 )
 
 // If you want to start measuring performance in your app, pass a function

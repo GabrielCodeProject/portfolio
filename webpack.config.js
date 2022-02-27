@@ -5,7 +5,8 @@ module.exports = {
   resolve: {
     alias: {
       component: path.resolve(__dirname, 'src/component/'),
-      container: path.resolve(__dirname, 'src/container/')
+      container: path.resolve(__dirname, 'src/container/'),
+      service: path.resolve(__dirname, 'src/service/')
     }
   },
   devtool: 'inline-source-map',
