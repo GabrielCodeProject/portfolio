@@ -215,7 +215,7 @@ code {
   display: flex;
   flex-direction: column;
   width: calc(100vw - 10vw);
-  height: calc(100vh - 25vh);
+  height: 100%;
   border: 1px solid black;
   border-radius: 25px;
   background-color: #aaaaaa;
