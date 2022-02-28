@@ -455,6 +455,21 @@ code {
 }
 
 @media screen and (max-width: 1679px) and (min-width: 1280px) {
+  /* nav */
+
+  #nav {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  #nav ul {
+    flex-direction: row;
+    padding: 25px;
+  }
+
+  #nav a {
+    font-size: 1.2rem;
+  }
   /* bio container */
 
   .bio-container {
@@ -464,7 +479,7 @@ code {
   }
   .img-bio {
     max-width: calc(50vw - 10vw);
-    max-height: calc(50vh -10vh);
+    height: calc(50vh - 10vh);
     margin: 25px;
   }
   .biographie-container {
@@ -480,6 +495,7 @@ code {
   }
   .biographie-container p {
     font-size: 1.9rem;
+    font-weight: 400;
   }
   .biographie-container a {
     font-size: 2.5rem;
@@ -489,22 +505,281 @@ code {
     background-color: whitesmoke;
     transition: ease-out 1s;
   }
+
+  /* competance container */
+
+  .competances-container {
+    grid-area: competances;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+
+  .competances-container header h2 {
+    font-size: 3.5rem;
+    padding: 25px;
+    font-weight: 700;
+  }
+  .competances-container footer {
+    font-size: 2rem;
+    border: 1px solid black;
+    margin: 25px 10px 25px 10px;
+  }
+
+  .competances-container footer:hover {
+    background-color: whitesmoke;
+    transition: ease-out 1s;
+  }
+
+  .list-competance-container {
+    display: flex;
+    flex-direction: row;
+    column-gap: 25px;
+  }
+
+  .detail-competance h3 {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+
+  .detail-competance p.p-big {
+    font-size: 1.5rem;
+  }
+
+  .img-competance {
+    width: 150px;
+    max-width: 200px;
+    height: 150px;
+    max-height: 200px;
+  }
+
+  /* Projet Container */
+
+  .projets-master-container {
+    grid-area: projets;
+    display: block;
+    box-shadow: 0 0 25px black;
+    text-align: center;
+  }
+
+  .projets-master-container header h2 {
+    font-size: 3.5rem;
+    padding: 25px;
+    font-weight: 700;
+  }
+
+  .projets-list-container {
+    row-gap: 15px;
+  }
+
+  .project-container-detail {
+    flex-direction: row;
+    width: calc(100vw - 10vw);
+    padding: 25px 0 25px 0;
+  }
+
+  .img-projet {
+    width: 500px;
+    height: 500px;
+    margin-left: 25px;
+  }
+
+  .projet-resumer {
+    row-gap: 50px;
+    margin: 0 50px 0 50px;
+  }
+  .projet-resumer h3 {
+    font-size: 2.5rem;
+    font-weight: 700;
+  }
+  .projet-resumer p {
+    font-size: 1.5rem;
+  }
+  .github-link {
+    font-size: 1.8rem;
+  }
+
+  /* footer */
+
+  .footer-container {
+    height: 15vh;
+  }
+
+  .footer-container footer ul li {
+    font-size: 1.5rem;
+  }
+
+  .footer-container span {
+    font-size: 0.9rem;
+  }
 }
 
 @media screen and (min-width: 1680px) {
-  /* bio */
+  /* nav */
 
-  .biographie-container p {
-    font-size: 2.2rem;
+  #nav {
+    flex-direction: row;
+    justify-content: space-between;
   }
 
-  /* projet */
+  #nav ul {
+    flex-direction: row;
+    padding: 25px;
+  }
+
+  #nav a {
+    font-size: 1.5rem;
+  }
+
+  /* bio container */
+
+  .bio-container {
+    display: flex;
+    flex-direction: row;
+    height: calc(100vh - 15vh);
+  }
+  .img-bio {
+    max-width: calc(50vw - 5vw);
+    height: calc(50vh - 5vh);
+    margin-left: 6vw;
+  }
+  .biographie-container {
+    justify-content: center;
+    row-gap: 75px;
+    height: 100%;
+    margin-bottom: 0;
+    padding: 0 75px 0 75px;
+  }
+
+  .biographie-container header h1 {
+    font-size: 3.5rem;
+  }
+  .biographie-container p {
+    font-size: 2rem;
+    font-weight: 400;
+  }
+  .biographie-container a {
+    font-size: 2.8rem;
+  }
+
+  .biographie-container a:hover {
+    background-color: whitesmoke;
+    transition: ease-out 1s;
+  }
+
+  /* competance container */
+
+  .competances-container {
+    grid-area: competances;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+
+  .competances-container header h2 {
+    font-size: 3.9rem;
+    padding: 75px;
+    font-weight: 700;
+    margin: 0;
+  }
+  .competances-container footer {
+    font-size: 3rem;
+    margin: 100px 10px 100px 10px;
+  }
+
+  .list-competance-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+
+  .detail-competance {
+    width: calc(100% / 3.5);
+  }
+
+  .detail-competance h3 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    padding: 15px;
+    margin: 0;
+  }
+
+  .detail-competance p.p-big {
+    font-size: 1.8rem;
+  }
+
+  .img-competance {
+    width: 200px;
+    height: 200px;
+  }
+
+  /* Projet Container */
+
+  .projets-master-container {
+    grid-area: projets;
+    display: block;
+    box-shadow: 0 0 25px black;
+    text-align: center;
+  }
+
+  .projets-master-container header h2 {
+    font-size: 3.9rem;
+    padding: 75px;
+    font-weight: 700;
+  }
+
+  .projets-list-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    row-gap: 50px;
+  }
+
+  .project-container-detail {
+    flex-direction: column;
+    width: calc(100% / 3.5);
+    height: 1000px;
+    padding: 25px 0 25px 0;
+  }
 
   .img-projet {
-    max-width: 450px;
+    width: 400px;
+    height: 400px;
   }
+
   .projet-resumer {
-    margin: 0 25px 0 25px;
+    justify-content: space-evenly;
+    row-gap: 50px;
+    margin: 0 40px 0 40px;
+  }
+  .projet-resumer h3 {
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin: 0;
+    margin-top: 25px;
+  }
+  .projet-resumer p {
+    font-size: 1.4rem;
+  }
+  .github-link {
+    font-size: 1.8rem;
+  }
+
+  /* footer */
+
+  .footer-container {
+    height: 20vh;
+  }
+
+  .footer-container footer ul li {
+    font-size: 2rem;
+  }
+
+  .footer-container span {
+    font-size: 0.9rem;
   }
 }
 
