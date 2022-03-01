@@ -123,7 +123,7 @@ code {
 .img-bio {
   border-radius: 50%;
   width: calc(100% / 1.5);
-  height: 450px;
+  height: 100%;
   margin: 25px;
 }
 .biographie-container {
@@ -162,10 +162,18 @@ code {
   align-items: center;
 }
 
+.competances-container header h2 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin: 25px 0 25px 0;
+}
+
 .competances-container footer {
-  font-size: 2rem;
+  font-size: 1.8rem;
   border: 1px solid black;
+  border-radius: 25px;
   margin: 25px 10px 25px 10px;
+  padding: 10px;
 }
 
 .competances-container footer:hover {
@@ -176,20 +184,33 @@ code {
 .list-competance-container {
   display: flex;
   flex-direction: column;
+  align-items: center;
   row-gap: 25px;
-  width: calc(100vw - 50px);
+  width: 100%;
 }
 
 .detail-competance {
+  width: calc(100% / 1.2);
   background-color: #aaaaaa;
   box-shadow: inset 0 0 10px black;
   border: 1px solid black;
   padding: 25px;
 }
 
+.detail-competance h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.detail-competance p {
+  font-size: 1.1rem;
+}
+
 .img-competance {
-  width: 150px;
-  height: 150px;
+  width: 125px;
+  height: 125px;
+  margin-bottom: 25px;
 }
 
 .detail-competance:hover {
@@ -203,10 +224,16 @@ code {
   box-shadow: 0 0 25px black;
   text-align: center;
 }
+.projets-master-container header h2 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin: 25px 0 25px 0;
+}
 
 .projets-list-container {
   display: flex;
   flex-direction: column;
+  width: 100%;
   align-items: center;
   row-gap: 25px;
   margin-bottom: 25px;
@@ -214,7 +241,7 @@ code {
 .project-container-detail {
   display: flex;
   flex-direction: column;
-  width: calc(100vw - 25vw);
+  width: calc(100% / 1.2);
   height: 100%;
   border: 1px solid black;
   border-radius: 25px;
@@ -229,34 +256,39 @@ code {
 }
 
 .img-projet {
-  flex-grow: 1;
   border-radius: 35px;
   width: 100%;
-  height: 500px;
+  height: 100%;
   padding: 0 10px 0 10px;
 }
 
 .projet-resumer {
-  flex-grow: 3;
   display: flex;
   flex-direction: column;
   row-gap: 25px;
   align-items: center;
-  margin: 15px 50px 0 50px;
+  margin: 15px;
 }
 
 .projet-resumer h3 {
   margin: 0;
 }
+
 .projet-resumer p {
   font-size: 1.2rem;
   margin: 0;
 }
+
 .github-link {
   border: 1px solid black;
   border-radius: 15px;
   font-size: 1.5rem;
-  margin-bottom: 25px;
+  padding: 7px;
+}
+
+a.github-link:hover {
+  background-color: whitesmoke;
+  transition: ease-out 1s;
 }
 
 /* footer */
@@ -288,6 +320,7 @@ code {
   flex-grow: 1;
   font-size: 0.7rem;
 }
+
 @media screen and (max-width: 980px) and (min-width: 736px) {
   /* bio */
   .img-bio {
