@@ -122,9 +122,9 @@ code {
 }
 .img-bio {
   border-radius: 50%;
-  max-width: calc(100vw - 10vw);
-  max-height: calc(100vh -10vh);
-  margin: 25px 0 25px 0;
+  width: calc(100% / 1.5);
+  height: 450px;
+  margin: 25px;
 }
 .biographie-container {
   display: flex;
@@ -214,7 +214,7 @@ code {
 .project-container-detail {
   display: flex;
   flex-direction: column;
-  width: calc(100vw - 10vw);
+  width: calc(100vw - 25vw);
   height: 100%;
   border: 1px solid black;
   border-radius: 25px;
@@ -230,25 +230,33 @@ code {
 
 .img-projet {
   flex-grow: 1;
-  border-radius: 25px;
-  max-height: 60%;
-  max-width: 95%;
+  border-radius: 35px;
+  width: 100%;
+  height: 500px;
+  padding: 0 10px 0 10px;
 }
 
 .projet-resumer {
   flex-grow: 3;
   display: flex;
   flex-direction: column;
+  row-gap: 25px;
   align-items: center;
-  margin: 15px 25px 0 25px;
+  margin: 15px 50px 0 50px;
 }
 
+.projet-resumer h3 {
+  margin: 0;
+}
 .projet-resumer p {
   font-size: 1.2rem;
+  margin: 0;
 }
 .github-link {
   border: 1px solid black;
   border-radius: 15px;
+  font-size: 1.5rem;
+  margin-bottom: 25px;
 }
 
 /* footer */
@@ -283,8 +291,8 @@ code {
 @media screen and (max-width: 980px) and (min-width: 736px) {
   /* bio */
   .img-bio {
-    max-width: calc(100vw - 18vw);
-    max-height: calc(100vh -18vh);
+    margin-top: 35px;
+    height: 500px;
   }
 
   .biographie-container {
@@ -347,9 +355,8 @@ code {
     margin-bottom: 35px;
   }
   .project-container-detail {
-    width: calc(100vw - 10vw);
-    height: calc(100vh - 10vh);
-    padding: 15px 0 15px 0;
+    width: calc(100% / 1.2);
+    padding: 25px;
   }
 
   .projet-resumer {
@@ -360,8 +367,7 @@ code {
     font-size: 1.5rem;
   }
   .github-link {
-    width: 25%;
-    height: 25px;
+    margin-bottom: 0;
   }
 }
 
@@ -369,8 +375,8 @@ code {
   /* bio */
 
   .img-bio {
-    max-width: calc(100vw - 35vw);
-    max-height: calc(100vh -35vh);
+    height: 600px;
+    width: calc(100% / 1.7);
     margin: 50px 0 35px 0;
   }
   .biographie-container {
