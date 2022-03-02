@@ -420,48 +420,53 @@ a.github-link:hover {
   /* bio */
 
   .img-bio {
-    height: 600px;
     width: calc(100% / 1.7);
-    margin: 50px 0 35px 0;
+    margin: 50px;
   }
+
   .biographie-container {
+    width: calc(100% / 1.3);
+
     row-gap: 50px;
     margin-bottom: 50px;
   }
 
   .biographie-container header h1 {
-    font-size: 3.8rem;
+    font-size: 3.5rem;
   }
 
   .biographie-container p {
-    text-align: center;
     font-size: 1.8rem;
   }
 
   /* competance container */
 
+  .detail-competance {
+    width: calc(100% / 1.5);
+  }
+
   .competances-container header h2.grand-titre {
+    font-size: 2.8rem;
     margin: 50px 0 50px 0;
   }
 
   .list-competance-container {
     row-gap: 50px;
-    width: calc(100vw - 10vw);
   }
 
   .detail-competance h3.light {
-    font-size: 2.8rem;
+    font-size: 2.2rem;
   }
 
-  .detail-competance p.p-big {
+  .detail-competance p {
     font-size: 1.8rem;
-    padding: 0 75px 0 75px;
-    margin: 2rem 0 2rem 0;
+    padding: 0 40px 0 40px;
+    margin-bottom: 0;
   }
 
   .img-competance {
-    width: 200px;
-    height: 200px;
+    width: 175px;
+    height: 175px;
   }
 
   .competances-container footer {
@@ -470,16 +475,24 @@ a.github-link:hover {
   }
 
   /* projet */
-  .project-container-detail {
-    height: calc(100vh - 15vh);
+  .projets-master-container header h2 {
+    font-size: 2.8rem;
+    margin: 50px 0 50px 0;
   }
+
   .projets-list-container {
     row-gap: 50px;
     margin-bottom: 50px;
   }
 
-  .projet-resumer {
-    margin: 25px 75px 25px 75px;
+  .project-container-detail {
+    width: calc(100% / 1.3);
+    padding: 25px;
+  }
+
+  .img-projet {
+    padding: 0;
+    max-height: 700px;
   }
 
   .projet-resumer h3.grand-titre-mobile {
@@ -490,6 +503,10 @@ a.github-link:hover {
     font-size: 1.5rem;
   }
 
+  .github-link {
+    font-size: 1.8rem;
+  }
+
   /* footer */
 
   .footer-container {
@@ -497,11 +514,7 @@ a.github-link:hover {
   }
 
   .footer-container footer ul li {
-    font-size: 1.5rem;
-  }
-
-  .footer-container span {
-    font-size: 0.9rem;
+    font-size: 1.6rem;
   }
 }
 
