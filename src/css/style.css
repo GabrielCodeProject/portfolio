@@ -738,7 +738,7 @@ a.github-link:hover {
   }
 
   .img-bio {
-    width: calc(100% / 1.3);
+    width: calc(100% / 1.5);
   }
 
   .biographie-container {
@@ -858,6 +858,8 @@ a.github-link:hover {
 
   .footer-container footer ul li {
     font-size: 2rem;
+    width: calc(100% / 3.5);
+    text-align: center;
   }
 
   .footer-container span {

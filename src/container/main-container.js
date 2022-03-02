@@ -148,9 +148,6 @@ class MainContainer extends Component {
           <span>
             <ul>
               <li>&copy; Untitled. All rights reserved.</li>
-              <li>
-                Design: <a href='http://html5up.net'>HTML5 UP</a>
-              </li>
             </ul>
           </span>
         </div>
