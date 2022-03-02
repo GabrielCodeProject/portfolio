@@ -133,7 +133,7 @@ class MainContainer extends Component {
           <footer>
             <ul>
               <li>
-                <a href='www.linkedin.com/in/gabriel-lavigueur-a13aa4150'>
+                <a href='https://linkedin.com/in/gabriel-lavigueur-a13aa4150'>
                   Linkedin
                 </a>
               </li>
@@ -141,7 +141,7 @@ class MainContainer extends Component {
                 <a href='https://github.com/GabrielCodeProject'>Github</a>
               </li>
               <li>
-                <a href='Gabrielprivermsg@gmail.com'>Mail</a>
+                <a href='//gabrielprivermsg@gmail.com'>Mail</a>
               </li>
             </ul>
           </footer>
