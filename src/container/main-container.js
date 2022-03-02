@@ -47,7 +47,9 @@ class MainContainer extends Component {
           </nav>
         </div>
         <div class='bio-container background-color-dark-green-theme'>
-          <img class='img-bio' src='images/profil.jpg' alt='' />
+          <div class='image-container'>
+            <img class='img-bio' src='images/profil.jpg' alt='' />
+          </div>
           <BioComponent />
         </div>
         <div class='competances-container background-color-dark-green-theme'>
