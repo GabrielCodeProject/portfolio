@@ -395,14 +395,11 @@ a.github-link:hover {
 
   .img-projet {
     padding: 0;
+    height: 100%;
     max-height: 600px;
   }
 
   .projet-resumer {
-    display: flex;
-    flex-direction: column;
-    row-gap: 25px;
-    align-items: center;
     margin: 15px;
   }
 
@@ -411,33 +408,11 @@ a.github-link:hover {
   }
 
   .projet-resumer p {
-    font-size: 1.2rem;
-    margin: 0;
+    font-size: 1.5rem;
   }
 
   .github-link {
-    border: 1px solid black;
-    border-radius: 15px;
-    font-size: 1.5rem;
-    padding: 7px;
-  }
-
-  a.github-link:hover {
-    background-color: whitesmoke;
-    transition: ease-out 1s;
-  }
-
-  /* Projet Container */
-
-  .projet-resumer {
-    margin: 25px 50px 0 50px;
-  }
-
-  .projet-resumer p {
-    font-size: 1.5rem;
-  }
-  .github-link {
-    margin-bottom: 0;
+    font-size: 1.7rem;
   }
 }
 
